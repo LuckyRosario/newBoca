@@ -6,8 +6,7 @@ import "./Home.css"
 
 function Home() {
 return ( 
-
-<Carousel variant="dark" id="#Home" fade>
+<Carousel variant="dark" fade>
   <Carousel.Item>
     <img
       className="d-block h-auto w-100"

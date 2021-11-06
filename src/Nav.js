@@ -16,10 +16,7 @@ const Navigation = props => {
     const toggle = () => setOpen(!isOpen);
 
 	return (
-        <>
-      
-<div id="header-container">
-			<Navbar className="fixed-top" expand="md">
+      <Navbar className="fixed-top" expand="md">
 				<NavbarBrand>
 					<NavLink to="/">
 						{" "}
@@ -38,7 +35,7 @@ const Navigation = props => {
 				<Collapse isOpen={isOpen} navbar>
 					<Nav className="container-fluid link" navbar>
 						<NavItem className=" navbar-nav me-auto">
-							<NavLink className="NavLink text" href="#Home" onClick={toggle}>
+							<NavLink className="NavLink text" href="./Home.js" onClick={toggle}>
 								Home
 							</NavLink>
 						</NavItem>
@@ -65,8 +62,7 @@ const Navigation = props => {
 					</Nav>
 				</Collapse>
 			</Navbar>
-		</div>
-      </>
+		
     );
   };
 
