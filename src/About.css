@@ -1,0 +1,26 @@
+.about{
+    margin-top: 70px;
+}
+.p{
+    margin-left: 50px;
+    /* margin-right: 50px; */
+}
+.pic{
+    margin-left: 150px;
+    margin-right: 100px;
+}
+.row{
+    background-color:rgb(203,227,211);
+}
+@media only screen and (max-width: 600px)
+  {
+    .pic{
+        padding: 0;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .about{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}

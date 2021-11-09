@@ -21,7 +21,7 @@
     display: block;
     height: 2px;
     width: 100%;
-    background: lightgray;
+    background: #5b5c5b;
     border-radius: 2px;
     opacity: 1;
     left: 0;
@@ -41,6 +41,7 @@
 
 #close-icon {
     padding: 2px;
+    color:#5b5c5b;
 }
 
 #close-icon span:nth-child(1) {

@@ -35,14 +35,14 @@ const Navigation = props => {
 				<Collapse isOpen={isOpen} navbar>
 					<Nav className="container-fluid link" navbar>
 						<NavItem className=" navbar-nav me-auto">
-							<NavLink className="NavLink text" href="./Home.js" onClick={toggle}>
+							<a className="NavLink text" href="#Home" >
 								Home
-							</NavLink>
+							</a>
 						</NavItem>
 						<NavItem className=" navbar-nav me-auto">
-							<NavLink className="NavLink text" href="#About" onClick={toggle}>
+							<a className="NavLink text" href="#About">
 								About Us
-							</NavLink>
+							</a>
 						</NavItem>
 						<NavItem className=" navbar-nav me-auto">
 							<NavLink className="NavLink text" href="#Services" onClick={toggle}>
