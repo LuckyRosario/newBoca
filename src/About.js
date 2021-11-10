@@ -1,4 +1,5 @@
 import about from "./cleaning.jpg";
+import Accordion from 'react-bootstrap/Accordion';
 import "./About.css";
 
 function About() {
@@ -19,6 +20,14 @@ function About() {
                     We are locally family owned and operated. We also use safe products. No hassle or commitment 
                     required. You will always have the same professional and consistent services with us. You can trust us with cleaning your home without any problems.
                 </p>
+                <Accordion className="mt-5" defaultActiveKey="">
+  <Accordion.Item className="rounded pill" eventKey="0">
+    <Accordion.Header>Now Serving</Accordion.Header>
+    <Accordion.Body>
+      The Tri-county area in South Florida
+    </Accordion.Body>
+  </Accordion.Item>
+</Accordion>
             </div>
             </div>
         </div>

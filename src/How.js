@@ -7,8 +7,8 @@ import CardGroup from 'react-bootstrap/CardGroup';
 
 function How() {
    return ( 
-<CardGroup className="rounded gap-3">
-  <Card>
+<CardGroup className="rounded mb-5 gap-3">
+  <Card className="pb-5">
     <Card.Img className="rounded border-0 w-100 h-auto mt-1" variant="top"  src={book} />
     <Card.Body>
       <Card.Title>Book</Card.Title>

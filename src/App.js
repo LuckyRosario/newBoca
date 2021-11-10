@@ -3,6 +3,7 @@ import Home from "./Home";
 import About from "./About";
 import How from "./How";
 import Services from "./Services";
+import ContactForm from "./Contact"
 import './App.css';
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <About />
       <How />
       <Services />
+      <ContactForm />
     </div>
   );
 }

@@ -18,7 +18,7 @@ return (
       </h1>
       <h4>Tell us what your needs are and we will fullfill them! At your service. We are always on time and on point. Satisfaction guaranteed.
       </h4>
-      <button class="button rounded-pill mt-5">Get A Quote</button>
+      <button class="button rounded-pill mt-5"><a style={{textDecoration: "none", color: "black"}} href="#Contact"> Get A Quote</a></button>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>

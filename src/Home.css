@@ -3,17 +3,23 @@
     bottom: auto;
    
 }
+.carousel-caption:hover{
+    color: black;
+}
 .button {
     background-color: rgb(203,227,211);
     border: none;
     color: black;
     padding: 10px 20px;
     text-align: center;
-    text-decoration: none;
+  
     display: inline-block;
     margin: 4px 2px;
     cursor: pointer;
   }
+  .a{
+    text-decoration: none;
+  }
   .button:hover{
-      background-color: darkcyan;
+      background-color: rgb(241, 78, 228);
   }
