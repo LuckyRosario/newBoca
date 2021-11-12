@@ -1,46 +1,47 @@
-import FormGroup from "react-bootstrap/FormGroup";
+import Form from 'react-bootstrap/Form';
+import Col from "react-bootstrap/Col";
+import Row from 'react-bootstrap/Row';
 import Button from "react-bootstrap/Button";
+import "./Contact.css";
 
 function ContactForm (){
     return (
       <>
-      <h1 id="Contact" className="mt-5 text-center">Contact</h1>
-        <div>
-          <form  className="text center w-75" action="https://formsubmit.co/p.rosario684@gmail.com" method="POST">
-            <FormGroup controlId="formBasicEmail">
-              <input
-                type="email"
-                name="email"
-                className="text-primary"
-                placeholder="Enter email"
-              />
-            </FormGroup>
-<FormGroup controlId="formBasicName">
-              <input
-                type="text"
-                name="name"
-                className="text-primary"
-                placeholder="Name"
-              />
-            </FormGroup>
-<FormGroup controlId="formBasicSubject">
-              <input
-                type="text"
-                name="subject"
-                className="text-primary"
-                placeholder="Subject"
-              />
-            </FormGroup>
-<FormGroup controlId="formBasicMessage">
-              <input
-                type="textarea"
-                name="message"
-                className="text-primary"
-              />
-            </FormGroup>
-<Button variant="primary" type="submit">
-              Submit
-            </Button>
+      <hr/>
+      <h1 id="Contact" className="mt-5 text-center mb-3">Contact</h1>
+      <h4 className="text-center">Send us a message and get a reply within an hour!</h4>
+      <h4 className="text-center mt-2">Free Quote</h4>
+        <div className="form" >
+          <form className="text-center" action="https://formsubmit.co/p.rosario684@gmail.com" method="POST">
+          
+  <Row className="mb-3">
+    <Form.Group as={Col} controlId="formGridEmail">
+      <Form.Label>Email</Form.Label>
+      <Form.Control type="email" placeholder="Enter Email" />
+    </Form.Group>
+
+    <Form.Group as={Col} controlId="formGridPassword">
+      <Form.Label>Name</Form.Label>
+      <Form.Control type="name" placeholder="Name" />
+    </Form.Group>
+  </Row>
+  <Row className="mb-3">
+    <Form.Group as={Col} controlId="formGridCity">
+      <Form.Label>City</Form.Label>
+      <Form.Control placeholder="Where are you located"/>
+    </Form.Group>
+
+    <Form.Group  as={Col} controlId="formGridState">
+    <Form.Label>Message</Form.Label>
+    <Form.Control as="textarea" placeholder="Text Area" rows={5} />
+  
+    </Form.Group>
+  </Row>
+
+  <Button className="rounded-pill mb-5 " variant="light" type="submit">
+    Submit
+  </Button>
+
           </form>
         </div>
       </>

@@ -45,20 +45,16 @@ const Navigation = props => {
 							</a>
 						</NavItem>
 						<NavItem className=" navbar-nav me-auto">
-							<NavLink className="NavLink text" href="#Services" onClick={toggle}>
+							<NavLink className="NavLink text" href="#Services">
 								Services
 							</NavLink>
 						</NavItem>
 						<NavItem className=" navbar-nav me-auto">
-							<NavLink className="NavLink text" href="#Contact" onClick={toggle}>
+							<NavLink className="NavLink text" href="#Contact">
 								Contact
 							</NavLink>
 						</NavItem>
-						<NavItem className=" navbar-nav me-auto">
-							<NavLink className="NavLink text" href="#Contact" onClick={toggle}>
-								Covid-19
-							</NavLink>
-						</NavItem>
+						
 					</Nav>
 				</Collapse>
 			</Navbar>
