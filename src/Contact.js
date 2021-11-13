@@ -10,7 +10,7 @@ function ContactForm (){
       <hr/>
       <h1 id="Contact" className="mt-5 text-center mb-3">Contact</h1>
       <h4 className="text-center">Send us a message and get a reply within an hour!</h4>
-      <h4 className="text-center mt-2">Free Quote</h4>
+    
         <div className="form" >
           <form className="text-center" action="https://formsubmit.co/p.rosario684@gmail.com" method="POST">
           
